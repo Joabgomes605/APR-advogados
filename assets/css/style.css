@@ -1298,6 +1298,9 @@ main{
     justify-content: center;
     font-size: 1rem;
   }
+  #services .gy-4{
+    padding-left: 1rem;
+  }
 }
 
 
