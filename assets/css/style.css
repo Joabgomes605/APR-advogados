@@ -1305,7 +1305,7 @@ main{
     width: 100vw;
   }
   #services > .container > .row > .col-lg-4{
-    width: 95%;
+    width: 100%;
   }
 }
 
