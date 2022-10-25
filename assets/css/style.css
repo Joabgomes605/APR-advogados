@@ -1319,6 +1319,8 @@ main{
   font-weight: bold;
 }
 
+
+
 #atendimento .col-xl-8{
   width: 60%;
   gap: 10px;
@@ -1336,19 +1338,24 @@ main{
   font-size: 2rem;
 }
 
-@media (min-width:280px) {
-  #atendimento .section-header h3{
-    width: 99%;
-    font-size: 1.3rem;
-    text-align: center;
+@media (max-width:425px) {
+  #atendimento{
+    width: 100vw;
   }
-  #atendimento .row .col-xl-8{
-    width: 100%;
+  #atendimento > #row-container{
+    min-width: 100vw;
   }
-  #atendimento .row .col-xl-8 .col-md-6 i{
-    font-size: 1.5rem;
+  #atendimento > #row-container > .col-xl-4{
+    min-width: 100vw;
+  }
+  #atendimento > #row-container > .col-xl-8{
+    min-width: 100vw;
+  }
+  #atendimento > #row-container > .col-md-6{
+    min-width: 100vw;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Footer
